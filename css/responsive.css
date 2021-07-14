@@ -1,0 +1,81 @@
+/* -----------------
+Responsive css start
+-------------------- */
+
+@media (max-width: 767px) {
+  .container {
+    width: 700px;
+  }
+  .manu ul li {
+    margin-right: 12px;
+  }
+  .login a {
+    padding: 10px 20px;
+  }
+  .banner-aria {
+    height: 1000px;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+  }
+  .banner-text {
+    min-height: 400px;
+  }
+  .banner-text .text a:hover {
+    background: rgb(70, 65, 20);
+    border-radius: 20px;
+  }
+  .banner-image:hover img {
+    transform: scale(0.9);
+  }
+  .blog {
+    display: block;
+  }
+  .single-blog {
+    width: 690px;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+  .view {
+    display: block;
+    margin: 100px 0px;
+  }
+  .view-title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .view-image {
+    width: 100%;
+  }
+  .view-image img {
+    width: 100%;
+  }
+  .boll {
+    height: 150px;
+    width: 150px;
+    top: 80px;
+    left: 0px;
+    opacity: 0.6;
+  }
+  .mit-header h2 {
+    text-align: center;
+  }
+  .contacts {
+    display: block;
+  }
+  .contact-form {
+    display: block;
+  }
+  .brand-header {
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+}
+
+@media (min-width: 991px) {
+}
